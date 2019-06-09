@@ -22,3 +22,7 @@ docker build -t moviefinder .
 ```sh
 docker run -p 8080:8080 moviefinder
 ```
+
+# Endpoints
+  - GET localhost:8080/movie/search?query={QUERY}
+  - GET localhost:8080/movie/{id}
