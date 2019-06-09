@@ -1,0 +1,11 @@
+apiKey: fc2d221bf0a381f3c8aa71205ede8c5d
+apiUrl: https://api.themoviedb.org/3/
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: macmillan
+    password: challenge
+  h2:
+    implicitRelativePath: true
+    console:
+      enabled: true
